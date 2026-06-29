@@ -59,7 +59,8 @@ p {
 }
 
 .summary div,
-.task-list li {
+.task-list li,
+.result {
   border: 1px solid #d7deea;
   border-radius: 8px;
   background: #ffffff;
@@ -84,9 +85,20 @@ p {
   line-height: 1.5;
 }
 
+.task-list strong {
+  color: #0f766e;
+}
+
+.task-status {
+  display: inline-block;
+  margin-top: 8px;
+  color: #166534;
+  font-size: 13px;
+  font-weight: 700;
+}
+
 @media (max-width: 720px) {
   .summary {
     grid-template-columns: 1fr;
   }
 }
-
